@@ -11,7 +11,7 @@
     }
     else if($_GET["request"]=="login" && $_GET["status"]=="success"){
         $dialogue="Welcome back again! ";
-    }
+   }
 ?>
     <script>
         $.growl("<?php echo $dialogue; ?> ", {
